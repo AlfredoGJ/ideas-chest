@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Idea from './components/idea/Idea'
+import {Router, Route} from 'react-router'
 
-function App() {
+const MyComponent = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,7 +22,18 @@ function App() {
         </a>
       </header>
     </div>
+  )
+}
+
+
+function App() {
+  return (
+   
+   <Idea>
+
+   </Idea> 
   );
 }
+
 
 export default App;

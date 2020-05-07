@@ -1,0 +1,15 @@
+.full-width{
+    width:100%;
+}
+
+.container{
+    padding: 2% 5%;
+}
+
+.idea-description{
+    font-size: 2rem;
+}
+
+.idea-title{
+    font-size: 4rem;
+}
